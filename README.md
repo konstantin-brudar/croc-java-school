@@ -1,2 +1,19 @@
-# croc-java-school
-CROC Java School homework tasks by Konstantin Brudar.
+# CROC Java School
+Домашние задания курса по разработке на Java от IT-компании КРОК.
+Выполнил Константин Брударь.
+
+### Задача 1: [Решение](https://github.com/konstantin-brudar/croc-java-school/blob/master/Task_1.java)
+Задан массив целых чисел. Необходимо переставить наименьшее из этих чисел в начало массива, а наибольшее - в конец.
+
+### Задача 1*: [Решение](https://github.com/konstantin-brudar/croc-java-school/blob/master/Task_1_star.java)
+Написать метод, форматирующий и выводящий на экран заданный размер в байтах в человекочитаемом виде.
+
+Человекочитаемый вид: 
+```{целая часть <= 1024}.{дробная часть макс. 1 знак} {единица измерения}```
+
+Например:
+```java
+printBytes(23) -> "23.0 B"
+printBytes(1024) -> "1.0 KB"
+printBytes(53692044905543) -> "48.8 TB"
+```
