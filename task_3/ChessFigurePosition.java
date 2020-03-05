@@ -55,6 +55,6 @@ public class ChessFigurePosition {
 
     @Override
     public String toString() {
-        return Character.toString(xIndexMapping.charAt(xIndex)) + yIndex;
+        return Character.toString(xIndexMapping.charAt(xIndex)) + (yIndex + 1);
     }
 }
