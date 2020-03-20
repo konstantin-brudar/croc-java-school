@@ -26,7 +26,7 @@ public class RearrangeVowels {
             boolean isFirstVowelFound = false;
             boolean isLastVowelFound = false;
 
-            while (indexFirstVowel < letters.length && indexFirstVowel < indexLastVowel) {
+            while (indexFirstVowel < indexLastVowel) {
                 if (Vowel.isVowel(letters[indexFirstVowel])) {
                     isFirstVowelFound = true;
                     break;
@@ -34,7 +34,7 @@ public class RearrangeVowels {
                 indexFirstVowel++;
             }
 
-            while (indexLastVowel >= 0 && indexLastVowel > indexFirstVowel) {
+            while (indexLastVowel > indexFirstVowel) {
                 if (Vowel.isVowel(letters[indexLastVowel])) {
                     isLastVowelFound = true;
                     break;
