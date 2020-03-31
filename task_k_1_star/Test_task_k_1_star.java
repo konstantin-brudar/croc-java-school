@@ -1,8 +1,8 @@
-package task_5_star;
+package task_k_1_star;
 
-import task_5_star.PeakLoadCounter;
+import task_k_1_star.PeakLoadCounter;
 
-public class Test_task_5_star {
+public class Test_task_k_1_star {
     public static void main(String[] args) {
         System.out.println("Test PeakLoadCounter:");
         String file = "file.txt";

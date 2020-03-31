@@ -1,7 +1,7 @@
-package task_5;
+package task_k_1;
 
-import task_5.Vowel;
-import task_5.Swap;
+import task_k_1.Vowel;
+import task_k_1.Swap;
 
 public class RearrangeVowels {
     public static void main(String[] args) {

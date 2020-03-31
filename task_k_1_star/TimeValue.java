@@ -1,6 +1,6 @@
-package task_5_star;
+package task_k_1_star;
 
-import task_5_star.LogTimeType;
+import task_k_1_star.LogTimeType;
 
 class TimeValue {
     private final long time;

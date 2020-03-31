@@ -1,4 +1,4 @@
-package task_5_star;
+package task_k_1_star;
 
 public class LogEntry {
     private final long startTime;

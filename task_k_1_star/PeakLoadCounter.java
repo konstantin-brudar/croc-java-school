@@ -1,4 +1,4 @@
-package task_5_star;
+package task_k_1_star;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -9,10 +9,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.Comparator;
-
-import task_5_star.LogTimeType;
-import task_5_star.TimeValue;
-import task_5_star.LogEntry;
 
 public class PeakLoadCounter {
     private TimeValue[] timeValues;

@@ -1,4 +1,4 @@
-package task_5;
+package task_k_1;
 
 public class Vowel {
     public static void main(String[] args) {
